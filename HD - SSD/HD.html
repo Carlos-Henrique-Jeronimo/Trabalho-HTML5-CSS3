@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HD</title>
+    <link rel="shortcut icon" href="pilha.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" src="js/arquivo.js"></script>
+</head>
+
+<body background="home/promptverde.png" class="fundo">
+    <div id="myNav" class="overlay">
+        <form action="index.html" class="botao">
+            <input type="submit" value="Home" class="btn">
+        </form>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0)" id="gabbtn" onclick="equiNav()">Equipe</a>
+                        </li>
+                            <ul id="equioverlay">
+                                <img src="equipe/Milton.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                <img src="equipe/Henrique.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                <img src="equipe/Ducy.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                <img src="equipe/Pedro.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                <img src="equipe/Ranny.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+
+                            </ul>
+                    </ul>
+                </nav>
+            </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0)" id="gabbtn" onclick="gabNav()">Gabinete</a>
+                        </li>
+                            <ul id="gaboverlay">
+                                <li>
+                                    Um gabinete é onde todos os componentes estão armazenados;<a href="gabinete.html" style="color: rgb(28, 114, 184); font-size: 20px;" >Ler mais</a>
+                                </li>
+                            </ul>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="placbtn" onclick="placNav()">Placa mãe</a></li>
+                        <ul id="placoverlay">
+                            <li>
+                                Uma placa de
+                circuito impresso onde-se vão acoplar todos os componentes do computador;
+                                <a href="Placa.html" style="color: rgb(28, 114, 184); font-size: 20px;"> Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="hdbtn" onclick="hdNav()">HD/SSD</a></li>
+                        <ul id="hdoverlay">
+                            <li>
+                                Dispositivos que permite ao computador guardar dados permanente; <a href="HD.html" style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="rambtn" onclick="ramNav()">Memoria RAM</a></li>
+                        <ul id="ramoverlay">
+                            <li>
+                                Dispositivos que permite ao computador guardar dados temporariamente; <a href="RAM.html" style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                            </li>
+                        </ul>  
+                    </ul>
+                </nav>
+            </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="procsbtn" onclick="procsNav()">Processador</a></li>
+                        <ul id="procsoverlay">
+                            <li>
+                                Pode ser considerado o "cérebro" de um computador. Tudo passa por ele já que ele é o responsável por
+                                executar todos os processos
+                                computacionais <a href="Processador.html" style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <button class="nav-button" onclick="openNav()">
+        <i><img src="home/menu-56.png" alt="" style="height: 25px;"></i>
+    </button>
+    <div id="myNav1" class="overlay1">
+        <div class="overlay-content">
+            <div id="container1">
+                <nav class="menu1">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0)" id="gabs" onclick="gabsNav()">O que é um HD?</a>
+                        </li>
+                        <p id="gabsoverlay" style="font-size: 16px; font-family: 'Courier New', Courier, monospace">
+                            Popularmente chamado de HD (Hard Disk Drive), é o
+                            componente do computador onde são gravados e armazenados os dados
+                            permanentemente. Trata-se de uma memória não-volátil, pois quando se
+                            desliga o computador, as informações não são perdidas, tal como
+                            acontece com as memórias RAM.</p>
+                    </ul>
+                </nav>
+            </div>
+            <div id="container1">
+                <nav class="menu1">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="cuid1" onclick="cuidNav()">O que é um SSD</a>
+                        </li>
+                        <ul id="cuidoverlay" style="font-size: 16px; font-family: 'Courier New', Courier, monospace;">
+                            <li>
+                                Quando você compra um computador na loja, ele já vem montado, né? Mas dá pra trocar o
+                                gabinete se você quiser. E como a maioria dos computadores vem com um lacre que, se você
+                                romper, vai perder a garantia, a dica é fazer essa troca só depois que passar o tempo de
+                                garantia da máquina! <br>
+                                E, mesmo assim, o ideal é ter a ajuda de um profissional pra fazer essa mudança. Afinal,
+                                você não quer correr o risco de estragar dispositivos do seu PC, né? <br>
+                                Se você vai montar sua própria máquina todinha, pra deixar ela do seu jeito, dá pra
+                                comprar todas as peças separadas, incluindo o gabinete, tá? <br>
+                                Ah, e lembre de mexer nos aparelhos com tudo fora da tomada. Assim, não vai levar
+                                choque! <br>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <form action="HD1.html" class="botao">
+        <input type="submit" value="Próxima página" class="btn" style="margin-inline-start: 850px; margin-top: -200px;">
+    </form>
+    </div>
+</body>
+
+</html>
