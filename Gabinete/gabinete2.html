@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabinete</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" src="js/arquivo.js"></script>
+    <link rel="shortcut icon" href="gabinete-de-computador.ico" type="image/x-icon">
+</head>
+
+<body background="home/promptverde.png" class="fundo">
+    <div id="myNav" class="overlay">
+        <form action="index.html" class="botao">
+            <input type="submit" value="Home" class="btn">
+        </form>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <div id="container">
+                    <nav class="menu">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)" id="gabbtn" onclick="equiNav()">Equipe</a>
+                            </li>
+                                <ul id="equioverlay">
+                                    <img src="equipe/Milton.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                    <img src="equipe/Henrique.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                    <img src="equipe/Ducy.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                    <img src="equipe/Pedro.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                    <img src="equipe/Ranny.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+    
+                                </ul>
+                        </ul>
+                    </nav>
+                </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0)" id="gabbtn" onclick="gabNav()">Gabinete</a>
+                        </li>
+                        <ul id="gaboverlay">
+                            <li>
+                                Um gabinete é onde todos os componentes estão armazenados;<a href="gabinete.html"
+                                    style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="placbtn" onclick="placNav()">Placa mãe</a></li>
+                        <ul id="placoverlay">
+                            <li>
+                                Uma placa de
+                                circuito impresso onde-se vão acoplar todos os componentes do computador;
+                                <a href="Placa.html" style="color: rgb(28, 114, 184); font-size: 20px;"> Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="hdbtn" onclick="hdNav()">HD/SSD</a></li>
+                        <ul id="hdoverlay">
+                            <li>
+                                Dispositivos que permite ao computador guardar dados permanente; <a href="HD.html"
+                                    style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="rambtn" onclick="ramNav()">Memoria RAM</a></li>
+                        <ul id="ramoverlay">
+                            <li>
+                                Dispositivos que permite ao computador guardar dados temporariamente; <a href="RAM.html"
+                                    style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="procsbtn" onclick="procsNav()">Processador</a></li>
+                        <ul id="procsoverlay">
+                            <li>
+                                Pode ser considerado o "cérebro" de um computador. Tudo passa por ele já que ele é o
+                                responsável por
+                                executar todos os processos
+                                computacionais <a href="Processador.html"
+                                    style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <button class="nav-button" onclick="openNav()">
+        <i><img src="home/menu-56.png" alt="" style="height: 25px;"></i>
+    </button>
+
+    <div id="myNav1" class="overlay1">
+        <div class="overlay-content">
+            <div id="container1">
+                <nav class="menu1">
+                    <ul id="gab1img">
+                        <li>
+                            <a href="javascript:void(0)" id="model" onclick="modelNav()" ondblclick="imgNav()">Modelos de Gabinete</a>
+                        </li>
+                        <p id="modeloverlay" style="font-size: 16px; font-family: 'Courier New', Courier, monospace">
+                            Concorrentes diretos secundários: são muito semelhantes aos
+                            diretos, porém não possuem o mesmo nível de atuação. Portanto, podese defini-los como os
+                            gabinetes que não tenham a aparência dos
+                            tradicionais ATX. Poucos produtos deste tipo foram encontrados no
+                            mercado brasileiro. <br>
+                            Concorrentes indiretos: produtos similares que também disputam
+                            a atenção do consumidor, mas não são do setor específico. Pode-se
+                            considerar então os casemoders caseiros, aqueles que fazem o próprio
+                            gabinete em casa. <br>
+                            Tendo definido o posicionamento dos concorrentes e similares,
+                            dá se início à análise sincrônica. As análises de concorrentes diretos e
+                            diretos secundários. <br>
+                            <br>
+                        </p>
+                        <a href="javascript:void(0)" onclick="img2Nav()" id="imgA"> <img src="gabinete/gabinets.png" alt=""
+                                id="imggab" style="margin-left: 200px; height: 50%;"></a>
+                        <p id="imgoverlay" style="font-size: 16px; font-family: 'Courier New', Courier, monospace">
+                            Gabinete Gamemax H605-TA GREEN segue no padrão mid-tower com estrutura reduzida para quem
+                            não tem muito espaço sobre a mesa ou ambiente de trabalho. A frente e as laterais do
+                            gabinete possuem acabamento em vidro temperado, incluindo também 3 Fans com LEDS na COR
+                            VERDE <br>
+                            Formato Gabinete: Atende os padrões MICRO-ATX <br>
+                            Painel frontal: Vidro temperado 4mm <br>
+                            Cor: preto <br>
+                            Painel lateral: Vidro Temperado de 4mm <br>
+                             Painel superior: filtro magnético de poeira / Saída para exaustão de ar <br>
+                            Parte inferior: filtro de poeira(abaixo da fonte) <br>
+                            Possui 2 fans na parte frontal e 1 fan na parte traseira para maximizar o fluxo de ar <br>
+                            Acompanha suporte para VGA, permitindo melhorar a segurança para quem utiliza VGA com peso e
+                            tamanho maiores. Inclui 3 FANS com LEDS na COR VERDE. <br>
+                        </p>
+                    </ul>
+                </nav>
+            </div>
+            <br>
+            <br>
+            <div id="container1">
+                <nav class="menu1">
+                    <ul>
+                        <form action="index.html" class="botao">
+                            <input type="submit" value="Home" class="btn" style="margin-top: -200px;">
+                        </form>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
