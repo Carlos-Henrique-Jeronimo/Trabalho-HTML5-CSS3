@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processador</title>
+    <link rel="shortcut icon" href="processador.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" src="js/arquivo.js"></script>
+</head>
+
+<body background="home/promptverde.png" class="fundo">
+    <div id="myNav" class="overlay">
+        <form action="index.html" class="botao">
+            <input type="submit" value="Home" class="btn">
+        </form>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0)" id="gabbtn" onclick="equiNav()">Equipe</a>
+                        </li>
+                            <ul id="equioverlay">
+                                <img src="equipe/Milton.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                <img src="equipe/Henrique.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                <img src="equipe/Ducy.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                <img src="equipe/Pedro.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                <img src="equipe/Ranny.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+
+                            </ul>
+                    </ul>
+                </nav>
+            </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0)" id="gabbtn" onclick="gabNav()">Gabinete</a>
+                        </li>
+                        <ul id="gaboverlay">
+                            <li>
+                                Um gabinete é onde todos os componentes estão armazenados;<a href="gabinete.html"
+                                    style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="placbtn" onclick="placNav()">Placa mãe</a></li>
+                        <ul id="placoverlay">
+                            <li>
+                                Uma placa de
+                                circuito impresso onde-se vão acoplar todos os componentes do computador;
+                                <a href="Placa.html" style="color: rgb(28, 114, 184); font-size: 20px;"> Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="hdbtn" onclick="hdNav()">HD/SSD</a></li>
+                        <ul id="hdoverlay">
+                            <li>
+                                Dispositivos que permite ao computador guardar dados permanente; <a href="HD.html"
+                                    style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="rambtn" onclick="ramNav()">Memoria RAM</a></li>
+                        <ul id="ramoverlay">
+                            <li>
+                                Dispositivos que permite ao computador guardar dados temporariamente; <a href="RAM.html"
+                                    style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="procsbtn" onclick="procsNav()">Processador</a></li>
+                        <ul id="procsoverlay">
+                            <li>
+                                Pode ser considerado o "cérebro" de um computador. Tudo passa por ele já que ele é o
+                                responsável por
+                                executar todos os processos
+                                computacionais <a href="Processador.html"
+                                    style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <button class="nav-button" onclick="openNav()">
+        <i><img src="home/menu-56.png" alt="" style="height: 25px;"></i>
+    </button>
+    <div id="myNav1" class="overlay1">
+        <div class="overlay-content">
+            <div id="container1">
+                <nav class="menu1">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0)" id="gabs" onclick="gabsNav()">O que é um Processador?</a>
+                        </li>
+                        <p id="gabsoverlay" style="font-size: 16px; font-family: 'Courier New', Courier, monospace">
+                            Também chamado de Microprocessador, esse chip feito de silício
+                            pode ser considerado o "cérebro" de um computador. É ele que faz a
+                            ação de passar as informações para a memória. Praticamente tudo passa
+                            por aqui, já que ele é o responsável por executar todos os processos
+                            computacionais e possuem capacidade de cálculo em alta velocidade. <br>
+                            Quanto mais "poderoso" for o processador, mais rápido ele vai
+                            executar as tarefas e num game mais rápida será a interação do usuário.
+                            Todo processador deve ter um sistema de controle da
+                            temperatura, um cooler ou watercooler (sistemas de refrigeração a água
+                            que segue os mesmos princípios do sistema de resfriamento dos motores
+                            automotivos). Esse sistema é responsável por manter a temperatura do
+                            processador em níveis aceitáveis, quanto menor a temperatura, maior a
+                            vida útil do chip. A temperatura sugerida para cada processador varia de
+                            acordo com o fabricante, o mecanismo e o desempenho. Para saber
+                            como está a temperatura do processador, os fabricantes de placas mães
+                            costumam oferecer programas próprios para isso.</p>
+                    </ul>
+                </nav>
+            </div>
+            <img src="Processador/profcessador.jpg" alt="" style="margin-left: 1000px; margin-top: -350px; height: 400px; border-radius: 100px;">
+            <div id="container1" style="margin-top: -100px;">
+                <nav class="menu1">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="cuid1" onclick="cuidNav()">Velocidade dos processadores</a>
+                        </li>
+                        <ul id="cuidoverlay" style="font-size: 16px; font-family: 'Courier New', Courier, monospace;">
+                            <li>
+                                Uma velocidade do relógio do processador de 3,5 GHz a 4,0 GHz é geralmente considerada uma boa velocidade do relógio do processador para jogos, mas é mais importante ter um bom desempenho condutor único. <br>
+                                Isso significa que sua CPU faz um bom trabalho de compreensão e conclusão de tarefas individuais.
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <form action="processador1.html" class="botao">
+        <input type="submit" value="Próxima página" class="btn" style="margin-inline-start: 975px; margin-top: -150px;">
+    </form>
+    </div>
+</body>
+
+</html>
