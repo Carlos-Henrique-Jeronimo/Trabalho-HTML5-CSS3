@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placa Mãe</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" src="js/arquivo.js"></script>
+    <link rel="shortcut icon" href="motherboard.ico" type="image/x-icon">
+</head>
+
+<body background="home/promptverde.png" class="fundo">
+    <div id="myNav" class="overlay">
+        <form action="index.html" class="botao">
+            <input type="submit" value="Home" class="btn">
+        </form>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0)" id="gabbtn" onclick="equiNav()">Equipe</a>
+                        </li>
+                            <ul id="equioverlay">
+                                <img src="equipe/Milton.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                <img src="equipe/Henrique.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                <img src="equipe/Ducy.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                <img src="equipe/Pedro.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                <img src="equipe/Ranny.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+
+                            </ul>
+                    </ul>
+                </nav>
+            </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0)" id="gabbtn" onclick="gabNav()">Gabinete</a>
+                        </li>
+                        <ul id="gaboverlay">
+                            <li>
+                                Um gabinete é onde todos os componentes estão armazenados;<a href="gabinete.html"
+                                    style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="placbtn" onclick="placNav()">Placa mãe</a></li>
+                        <ul id="placoverlay">
+                            <li>
+                                Uma placa de
+                                circuito impresso onde-se vão acoplar todos os componentes do computador;
+                                <a href="Placa.html" style="color: rgb(28, 114, 184); font-size: 20px;"> Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="hdbtn" onclick="hdNav()">HD/SSD</a></li>
+                        <ul id="hdoverlay">
+                            <li>
+                                Dispositivos que permite ao computador guardar dados permanente; <a href="HD.html"
+                                    style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="rambtn" onclick="ramNav()">Memoria RAM</a></li>
+                        <ul id="ramoverlay">
+                            <li>
+                                Dispositivos que permite ao computador guardar dados temporariamente; <a href="RAM.html"
+                                    style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="procsbtn" onclick="procsNav()">Processador</a></li>
+                        <ul id="procsoverlay">
+                            <li>
+                                Pode ser considerado o "cérebro" de um computador. Tudo passa por ele já que ele é o
+                                responsável por
+                                executar todos os processos
+                                computacionais <a href="Processador.html"
+                                    style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <button class="nav-button" onclick="openNav()">
+        <i><img src="home/menu-56.png" alt="" style="height: 25px;"></i>
+    </button>
+
+    <div id="myNav1" class="overlay1">
+        <div class="overlay-content">
+            <div id="container1">
+                <nav class="menu1">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="placs" onclick="placsNav()">1. Conectores da Placa mãe</a>
+                        </li>
+                        <p id="placsoverlay" style="font-size: 16px; font-family: 'Courier New', Courier, monospace">
+                            Conectores traseiros
+                            No canto superior esquerdo da placa-mãe (considerando a posição torre), encontramos
+                            vários conectores posicionados na borda do componente. Essa localização permite que eles
+                            possam ser acessados a partir da traseira do gabinete. <br>
+                            Ali, há conectores como: <br>
+                            USB tipo A <br>
+                            USB-C <br>
+                            HDMI (vídeo) <br>
+                            DisplayPort (vídeo) <br>
+                            Ethernet (cabo de rede) <br>
+                            Áudio (como caixas de som e fones) <br>
+                            PS/2 (para teclado) <br>
+                            Motherboards antigas traziam conectores como paralelo (muito usado para impressoras) e
+                            VGA (vídeo). Esses padrões foram substituídos por tecnologias mais modernas, como USB
+                            e HDMI. <br>
+                            A quantidade e a variedade de conectores traseiros mudam de modelo para modelo. Alguns
+                            trazem quatro ou seis portas USB, por exemplo. Outros, duas conexões Ethernet. <br>
+                        </p>
+                    </ul>
+                </nav>
+            </div>
+            <img src="placa mãe/placa-mae-partes.jpg" alt="" style="margin-left: 1050px; height: 500px; margin-top: -400px;">
+            <div id="container1">
+                <nav class="menu1">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="cuid1" onclick="cuidNav()" style="margin-top: -250px;">2.
+                                Slots da Componentes da Placa mãe</a></li>
+                        <ul id="cuidoverlay"
+                            style="font-size: 16px; font-family: 'Courier New', Courier, monospace; color: lime;">
+                            Abaixo dos conectores traseiros estão os slots de expansão. Eles recebem esse nome
+                            porque permitem a instalação de placas que expandem os recursos do computador. <br>
+                            Ao instalar uma placa ali, os conectores desta ficam acessíveis a partir da traseira do PC. <br>
+                            Entre os dispositivos que podem ser instalados nessa área estão placas de vídeo, placas
+                            Ethernet, placas de redes Wi-Fi e placas de som. Normalmente, os três últimos itens já
+                            estão “embutidos” na placa-mãe. Está aí a razão para ela ter conectores correspondentes a
+                            eles na traseira. <br>
+                            De todo modo, é possível instalar placas para diversas funções, mesmos que elas já
+                            existam na motherboard. Basta que elas sejam compatíveis com os slots existentes ali.
+
+                            </p>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <form action="Placa2.html" class="botao">
+        <input type="submit" value="Próxima página" class="btn" style="margin-inline-start: 1025px; margin-top: -150px;">
+    </form>
+</body>
+
+</html>
