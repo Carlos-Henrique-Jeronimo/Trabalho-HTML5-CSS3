@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabinete</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" src="js/arquivo.js"></script>
+    <link rel="shortcut icon" href="gabinete-de-computador.ico" type="image/x-icon">
+</head>
+
+<body background="home/promptverde.png" class="fundo">
+    <h1 id="tituloprincipal"></h1>
+    <div>
+        <div id="myNav" class="overlay">
+            <form action="index.html" class="botao">
+                <input type="submit" value="Home" class="btn">
+            </form>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <div id="container">
+                    <nav class="menu">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)" id="gabbtn" onclick="equiNav()">Equipe</a>
+                            </li>
+                                <ul id="equioverlay">
+                                    <img src="equipe/Milton.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                    <img src="equipe/Henrique.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                    <img src="equipe/Ducy.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                    <img src="equipe/Pedro.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                    <img src="equipe/Ranny.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+    
+                                </ul>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="container">
+                    <nav class="menu">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)" id="gabbtn" onclick="gabNav()">Gabinete</a>
+                            </li>
+                            <ul id="gaboverlay">
+                                <li>
+                                    Um gabinete é onde todos os componentes estão armazenados;<a href="gabinete.html"
+                                        style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div id="container">
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="javascript:void(0)" id="placbtn" onclick="placNav()">Placa mãe</a></li>
+                            <ul id="placoverlay">
+                                <li>
+                                    Uma placa de
+                                    circuito impresso onde-se vão acoplar todos os componentes do computador;
+                                    <a href="Placa.html" style="color: rgb(28, 114, 184); font-size: 20px;"> Ler
+                                        mais</a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="container">
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="javascript:void(0)" id="hdbtn" onclick="hdNav()">HD/SSD</a></li>
+                            <ul id="hdoverlay">
+                                <li>
+                                    Dispositivos que permite ao computador guardar dados permanente; <a href="HD.html"
+                                        style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="container">
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="javascript:void(0)" id="rambtn" onclick="ramNav()">Memoria RAM</a></li>
+                            <ul id="ramoverlay">
+                                <li>
+                                    Dispositivos que permite ao computador guardar dados temporariamente; <a
+                                        href="RAM.html" style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="container">
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="javascript:void(0)" id="procsbtn" onclick="procsNav()">Processador</a></li>
+                            <ul id="procsoverlay">
+                                <li>
+                                    Pode ser considerado o "cérebro" de um computador. Tudo passa por ele já que ele é o
+                                    responsável por
+                                    executar todos os processos
+                                    computacionais <a href="Processador.html"
+                                        style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <button class="nav-button" onclick="openNav()">
+            <i><img src="home/menu-56.png" alt="" style="height: 25px;"></i>
+        </button>
+        <div id="myNav1" class="overlay1" style="margin-top: -75px;">
+            <div class="overlay-content">
+                <div id="container1">
+                    <nav class="menu1">
+                        <ul id="gab1img">
+                            <li>
+                                <a href="javascript:void(0)" id="pers" onclick="persNav()" ondblclick="img1Nav()">Personalizações possiveis em
+                                    um gabinete:</a>
+                            </li>
+                            <p id="persoverlay" style="font-size: 20px; font-family: 'Courier New', Courier, monospace">
+                                Cases normalmente tem sua estrutura construída em aço ou
+                                alumínio, é possível encontrarmos alguns feitos em plástico, mas não
+                                seria o comum do mercado. Outros materiais como madeira por
+                                exemplo, aparecem apenas em cases construídos por modders. <br>
+                                A aparência dos gabinetes vem evoluindo aos poucos desde o
+                                início dos anos 2000, mas ainda está longe de se desconstruir do padrão
+                                criado nos anos 1990. No começo, a maioria dos gabinetes de
+                                computador tinham uma simples forma retangular e eram pintados de
+                                branco ou bege, a atenção dado ao design visual dessas caixas era nula e
+                                elas serviam apenas para exercer sua função de armazenar e proteger as
+                                peças em seu interior. <br>
+                                Estes computadores ficaram conhecidos como
+                                “computadores brancos” e ainda são encontrados em grande quantidade
+                                por aí.
+                                Nos anos 2000 surgiu o estilo artístico de gabinetes chamado de
+                                Casemod que muitas vezes era utilizado para achar atenção ao uso de
+                                componentes avançados ou incomuns que se tinham dentro dos
+                                gabinetes. Daí surgiram as caixas com painéis laterais transparentes ou
+                                janelas de acrílico, que possibilitavam aos usuários olhar dentro do
+                                gabinete sem precisar abri-lo e enquanto a máquina estivesse
+                                funcionando. Os Casemodders ou modders como são conhecidos,
+                                também começaram a implementar o uso de iluminação interna (LED),
+                                pinturas personalizadas e até mesmo sistemas de refrigeração a partir de
+                                líquidos.
+                                Porém, as mudanças foram parando por aí, o modelo de gabinete
+                                que conhecemos e vemos por aí com frequência chegou ao mercado em
+                                1996 e até hoje não perdeu espaço, mas também não evoluiu, ele é
+                                conhecido como modelo ATX2
+                                , preza pelo espaço interno para
+                                circulação de ar e uma disposição padronizada para placas e para a fonte
+                                de energia.
+                                Este formato atual sem dúvidas tem suas características positivas
+                                e suas vantagens, não é à toa que está no mercado a mais de vinte anosporém a indústria
+                                dos jogos e todo o mercado gamer vem evoluindo
+                                com uma velocidade impressionante, sempre em busca de algo novo,
+                                uma mudança que possa mexer com a comunidade, que traga uma
+                                sensação de exclusividade, que consiga de fato representar o que aquele
+                                usuário é como pessoa e principalmente como gamer.
+                                Os computadores tem evoluído muito na qualidade, no
+                                desempenho e design, tanto de periféricos, quanto de peças que fazem o
+                                computador ficar cada dia mais potente, porém, os gabinetes estão
+                                parados no tempo, as mudanças feitas no início dos anos 2000 estão
+                                presentes na maior parte dos produtos voltados ao público gamer hoje
+                                em dia, LED’s se tornaram quase uma obrigação em produtos desta
+                                comunidade, as laterais transparentes começam a aparecer cada vez mais
+                                e até mesmo os sistemas de refrigeração líquida (watercooler) estão
+                                servindo como estilização nas máquinas.
+                                Por estas razões apresentadas acima, este PCC buscará
+                                desenvolver uma coleção de gabinetes que desconstrua o padrão
+                                encontrado no mercado atualmente, dando uma estética nova para este
+                                componente tão importante em um computador.
+                            </p>
+                            <p>
+                                <img src="gabinete/Gabinete Gamer Gamemax Black Infinit M908-TR Rainbow-1(3).png" alt="" id="imgoverla">
+                            </p>
+                        </ul>
+                    </nav>
+                </div>
+                <br>
+                <br>
+                <div id="container1">
+                    <nav class="menu1">
+                        <form action="gabinete2.html" class="botao">
+                            <input type="submit" value="Próxima página" class="btn" style="margin-top: -170px;">
+                        </form>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
