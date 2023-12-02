@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placa Mãe</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" src="js/arquivo.js"></script>
+    <link rel="shortcut icon" href="motherboard.ico" type="image/x-icon">
+</head>
+
+<body background="home/promptverde.png" class="fundo">
+    <div id="myNav" class="overlay">
+        <form action="index.html" class="botao">
+            <input type="submit" value="Home" class="btn">
+        </form>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0)" id="gabbtn" onclick="equiNav()">Equipe</a>
+                        </li>
+                            <ul id="equioverlay">
+                                <img src="equipe/Milton.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                <img src="equipe/Henrique.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                <img src="equipe/Ducy.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                <img src="equipe/Pedro.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                <img src="equipe/Ranny.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+
+                            </ul>
+                    </ul>
+                </nav>
+            </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0)" id="gabbtn" onclick="gabNav()">Gabinete</a>
+                        </li>
+                        <ul id="gaboverlay">
+                            <li>
+                                Um gabinete é onde todos os componentes estão armazenados;<a href="gabinete.html"
+                                    style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="placbtn" onclick="placNav()">Placa mãe</a></li>
+                        <ul id="placoverlay">
+                            <li>
+                                Uma placa de
+                                circuito impresso onde-se vão acoplar todos os componentes do computador;
+                                <a href="Placa.html" style="color: rgb(28, 114, 184); font-size: 20px;"> Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="hdbtn" onclick="hdNav()">HD/SSD</a></li>
+                        <ul id="hdoverlay">
+                            <li>
+                                Dispositivos que permite ao computador guardar dados permanente; <a href="HD.html"
+                                    style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="rambtn" onclick="ramNav()">Memoria RAM</a></li>
+                        <ul id="ramoverlay">
+                            <li>
+                                Dispositivos que permite ao computador guardar dados temporariamente; <a href="RAM.html"
+                                    style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="procsbtn" onclick="procsNav()">Processador</a></li>
+                        <ul id="procsoverlay">
+                            <li>
+                                Pode ser considerado o "cérebro" de um computador. Tudo passa por ele já que ele é o
+                                responsável por
+                                executar todos os processos
+                                computacionais <a href="Processador.html"
+                                    style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <button class="nav-button" onclick="openNav()">
+        <i><img src="home/menu-56.png" alt="" style="height: 25px;"></i>
+    </button>
+
+    <div id="myNav1" class="overlay1">
+        <div class="overlay-content">
+            <div id="container1">
+                <nav class="menu1">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="placs" onclick="placsNav()">O que é a Placa Mãe?</a></li>  
+                        <p id="placsoverlay" style="font-size: 16px; font-family: 'Courier New', Courier, monospace">
+                            Placa-mãe é o nome dado a uma placa de circuito impresso que integra o hardware de um
+                            computador. Ela contém slots (conexões) e conectores específicos para processador (CPU),
+                            memória RAM, unidades de armazenamento (SSD ou HD), placa de vídeo (GPU) e assim por diante.
+                            <br>
+                            Essa integração consiste em permitir que os componentes se comuniquem de modo que o
+                            computador se torne funcional. É por intermédio da placa-mãe que a CPU acessa os dados que
+                            estão na memória RAM, por exemplo.
+                            <br>
+                            As placas-mãe têm formatos e tamanhos variados. Isso vale principalmente para as unidades
+                            que equipam notebooks, servidores, workstations, celulares, tablets e outros equipamentos.
+                            Isso porque esses dispositivos variam em dimensões, recursos e propósitos.
+
+                            Este texto tem como base as placas-mãe para PCs. Nesse segmento, elas seguem tamanhos e
+                            formatos padronizados (form factors), como ATX e mini-ITX.
+                            <br>
+                            ASRock, Asus, Gigabyte e MSI estão entre as principais fabricantes de placas-mãe para PCs.
+                            <br>
+                            Neste ponto, vale destacar também que uma placa-mãe pode ser chamada de motherboard (nome
+                            que aparecerá mais vezes neste texto), mainboard, mobo, system board, entre outras
+                            denominações.
+                        </p>
+                        <img src="placa mãe/gabinete-placa-mae.jpg" alt="" style="margin-left: 1070px; height: 300px; margin-top: -300px; border-radius: 100px;">
+                    </ul>
+                </nav>
+            </div>
+            <div id="container1">
+                <nav class="menu1">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="cuid1" onclick="cuidNav()">Componentes da Placa mãe</a></li>
+                        <ul id="cuidoverlay" style="font-size: 16px; font-family: 'Courier New', Courier, monospace;">
+                            <p>As placas-mãe padronizadas têm formato retangular ou quadrangular. É assim para que elas
+                                possam ser instaladas
+                                adequadamente no gabinete do computador.
+                                <br>
+                                Nos gabinetes do tipo torre, a placa-mãe fica "em pé", ou seja, é instalada em posição
+                                vertical. Embora menos
+                                comuns no mercado, também é possível encontrar gabinetes horizontais, que deixam a placa
+                                “deitada”.
+                                <br>
+                                Em ambos os casos, os conectores da placa-mãe devem ser posicionados em áreas
+                                específicas. Isso porque é
+                                necessário garantir que componentes sejam acoplados nela e, ao mesmo, ocupem um local
+                                apropriado no gabinete.
+                                <br>
+                                Para entendermos essa organização, vamos dividir a placa-mãe em três partes essenciais e
+                                uma complementar. Os
+                                exemplos serão os modelos Prime B660M-A, da Asus, e Z690 Pro RS, da ASRock. A
+                                disponibilização dos conectores em
+                                cada parte deve ser seguida por toda a indústria, podendo haver apenas pequenas
+                                diferenças entre os modelos.
+                            </p>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <form action="Placa1.html" class="botao">
+        <input type="submit" value="Próxima página" class="btn" style="margin-inline-start: 1000px; margin-top: -200px;">
+    </form>
+</body>
+
+</html>
