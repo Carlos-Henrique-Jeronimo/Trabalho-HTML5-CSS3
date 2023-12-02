@@ -1,0 +1,427 @@
+.fundo{
+    background: rgb(red, green, blue) url(OIP\ \(1\).jfif);
+    width: 100%;
+    max-width: 100vh;
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-blend-mode: darken;
+}
+body{
+    background-image: -o-repeating-linear-gradient();
+}
+#container{
+    width: 80%;
+    margin: 80px auto;
+}
+#container1{
+    width: 100%;
+    margin: 80px auto;
+}
+.menu ul{
+    padding: 0;
+    list-style: none;
+    width: 32%;
+}
+.menu li > a{
+    font-family: 'Courier New', Courier, monospace;
+    color:  lime;
+    text-decoration: none;
+    font-size: 42px;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+    transition: all 1s ease;
+}
+
+.menu li>a:hover{
+    color: lime;
+    letter-spacing: 4px;
+}
+.menu li > a::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 200px;
+    background: lime;
+    transition: all 0,5s ease;
+}
+.menu li > a:hover::after{
+    width: 80%;
+}
+.menu1 ul{
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+.menu1 li > a{
+    font-family: 'Courier New', Courier, monospace;
+    color:  lime;
+    text-decoration: none;
+    font-size: 42px;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+    transition: all 1s ease;
+}
+.menu1 ul > p{
+    color: lime;
+    width: 100%;
+}
+.menu1 li>a:hover{
+    color: lime;
+    letter-spacing: 4px;
+}
+.menu1 li > a::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 200px;
+    background: lime;
+    transition: all 0,5s ease;
+}
+.menu1 li > a:hover::after{
+    width: 80%;
+}
+#titulo1principal{
+    margin-top: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: lime;
+    text-align: 50%;
+    margin-inline-start:50%;
+    transition: all 5.0s;
+}
+#proximo{
+    margin-top: 90px;
+    margin-inline-start: 1015px;
+    border-radius: 30px;
+}
+#pargabinete1{
+    font-family: 'Courier New', Courier, monospace;
+    color: lime;
+}
+#gabineteimg{
+    width: 350px; 
+    border-radius: 10px;
+}
+#gamiplay{
+    margin-top: -100px;
+    margin-left: 630px;
+    width: 250px;
+    background-color: rgb(140, 174, 235);
+}
+#litransparente{
+    margin-top: -250px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.nav-button1{
+    border: 0;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: rgb(61, 61, 61);
+    margin: 8px;
+    cursor: pointer;
+    margin-top: 140px;
+    transition: all 4.5s;
+    margin-inline-start: 37.5%;
+}
+.nav-button{
+    border: 0;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: rgb(61, 61, 61);
+    margin: 8px;
+    cursor: pointer;
+    margin-top: 130px;
+    transition: all 4.5s;
+    margin-inline-start: 0%;
+}
+.nav-button i{
+    color: lime;
+}
+.overlay{
+    width: 0%;
+    height: 100%;
+    background-color: rgb(34, 34, 34);
+    background-color: rgba(34, 34, 34, 0,9);
+    z-index: 9;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    transition: all 1.5s;
+}
+.overlay-content{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.overlay a{
+    padding: 8px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 34px;
+    transform: 0.3;
+}
+.overlay a:hover, .overlay a:facus{
+    color: lime;
+}
+.overlay .closebtn{
+    position: absolute;
+    top: 25px;
+    right: 45px;
+    font-size: 60px;
+}
+@media screen and (max-height:450px){
+    .overlay a { font-size: 20px;}
+    .overlay, .closebtn{
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+
+    }
+}
+#gaboverlay{
+    width: 0%;
+    height: 100px;
+    background-color: rgb(34, 34, 34);
+    background-color: rgba(34, 34, 34, 0,9);
+    z-index: 9;
+    position: relative;
+    left: 0;
+    top: 50;
+    overflow-x: hidden;
+    transition: all 3.0s;
+}
+#gaboverlay li{
+    color: rgb(0, 255, 13);
+}
+#placoverlay{
+    width: 0%;
+    height: 100px;
+    background-color: rgb(34, 34, 34);
+    background-color: rgba(34, 34, 34, 0,9);
+    z-index: 9;
+    position: relative;
+    left: 0;
+    top: 50;
+    overflow-x: hidden;
+    transition: all 3.0s;
+}
+#placoverlay li{
+    color: rgb(0, 255, 13);
+}
+#hdoverlay{
+    width: 0%;
+    height: 100px;
+    background-color: rgb(34, 34, 34);
+    background-color: rgba(34, 34, 34, 0,9);
+    z-index: 9;
+    position: relative;
+    left: 0;
+    top: 50;
+    overflow-x: hidden;
+    transition: all 3.0s;
+}
+#hdoverlay li{
+    color: rgb(0, 255, 13);
+}
+#ramoverlay{
+    width: 0%;
+    height: 100px;
+    background-color: rgb(34, 34, 34);
+    background-color: rgba(34, 34, 34, 0,9);
+    z-index: 9;
+    position: relative;
+    left: 0;
+    top: 50;
+    overflow-x: hidden;
+    transition: all 3.0s;
+}
+#ramoverlay li{
+    color: rgb(0, 255, 13);
+}
+#procsoverlay{
+    width: 0%;
+    height: 100px;
+    background-color: rgb(34, 34, 34);
+    background-color: rgba(34, 34, 34, 0,9);
+    z-index: 9;
+    position: relative;
+    left: 0;
+    top: 50;
+    overflow-x: hidden;
+    transition: all 3.0s;
+}
+#procsoverlay li{
+    color: rgb(0, 255, 13);
+}
+#gabsoverlay{
+    width: 0%;
+    height: 150px;
+    background-color: rgb(34, 34, 34);
+    background-color: rgba(34, 34, 34, 0,9);
+    z-index: 9;
+    position: static;
+    left: 0;
+    top: 50;
+    overflow-x: hidden;
+    transition: all 3.0s;
+}
+#gabsoverlay p{
+    color: rgb(0, 255, 13);
+}
+#cuidoverlay{
+    width: 0%;
+    height: 150px;
+    background-color: rgb(34, 34, 34);
+    background-color: rgba(34, 34, 34, 0,9);
+    z-index: 9;
+    position: static;
+    left: 0;
+    top: 50;
+    overflow-x: hidden;
+    transition: all 3.0s;
+    
+}
+#cuidoverlay li{
+    color: rgb(0, 255, 13);
+}
+.botao{
+    margin-top: 10px;
+    margin-left: 170px;
+    display: flex;
+    background:rgba(34, 34, 34, 0,9);
+}
+.btn{
+    margin: 10px;
+    width: 250px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    border-radius: 1000px;
+    color: #00ff0d;
+    transition: all 0.6s ease-in-out 0s;
+    box-shadow: insert 0 0 20px #00ff0d;
+    background-color:rgba(34,34,34,0.9);
+}
+.btn:hover{
+    background: transparent;
+    color: #00ff0d;
+    transform: scale(1.5)rotate(360deg);
+    box-shadow: 0 0 60px #000000;
+    cursor: grab;
+    border: 2px solid #00ff0d;
+}
+#persoverlay {
+    width: 0%;
+    height: 400px;
+    background-color: rgb(34, 34, 34);
+    background-color: rgba(34, 34, 34, 0,9);
+    z-index: 9;
+    position: static;
+    left: 0;
+    top: 50;
+    overflow-x: hidden;
+    transition: all 3.0s;
+}
+#persoverlay li {
+    color: rgb(0, 255, 13);
+}
+#gab1img img{
+    margin-top: -600px;
+    margin-left: 1000px;
+}
+#gab1imgp{
+    margin-left: 900px;
+}
+#imgA{
+    font-size: 12px; 
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 720px; 
+    color: lime;
+}
+#modeloverlay{
+    width: 0%;
+    height: 200px;
+    background-color: rgb(34, 34, 34);
+    background-color: rgba(34, 34, 34, 0,9);
+    z-index: 9;
+    position: static;
+    left: 0;
+    top: 50;
+    overflow-x: hidden;
+    transition: all 3.0s;
+}
+#modeloverlay li{
+    color: rgb(0, 255, 13);
+}
+#imgoverlay{
+    width: 0%;
+    height: 150px;
+    background-color: rgb(34, 34, 34);
+    background-color: rgba(34, 34, 34, 0,9);
+    z-index: 9;
+    position: static;
+    left: 0;
+    top: 50;
+    overflow-x: hidden;
+    transition: all 3.0s;
+    margin-left: 800px;
+}
+#imgoverlay li{ 
+    color: rgb(0, 255, 13);
+}
+#placsoverlay{
+    width: 0%;
+    height: 200px;
+    background-color: rgb(34, 34, 34);
+    background-color: rgba(34, 34, 34, 0,9);
+    z-index: 9;
+    position: static;
+    left: 0;
+    top: 50;
+    overflow-x: hidden;
+    transition: all 3.0s;
+}
+#placsoverlay li{
+    color: rgb(0, 255, 13)
+}
+#imggab{
+    width: 0%;
+    position: relative;
+    transition: all 3.0s;
+    left: 0;
+}
+#imgoverla{
+    width: 0%;
+    height: 300px;
+    background-color: rgb(34, 34, 34);
+    background-color: rgba(34, 34, 34, 0,9);
+    position: relative;
+    transition: all 3.0s;
+}
+#equioverlay{
+    width: 0%;
+    height: 100px;
+    background-color: rgb(34, 34, 34);
+    background-color: rgba(34, 34, 34, 0,9);
+    z-index: 9;
+    position: relative;
+    left: 0;
+    top: 50;
+    overflow-x: hidden;
+    transition: all 3.0s;
+}
