@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placa Mãe</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" src="js/arquivo.js"></script>
+    <link rel="shortcut icon" href="motherboard.ico" type="image/x-icon">
+</head>
+
+<body background="home/promptverde.png" class="fundo">
+    <div id="myNav" class="overlay">
+        <form action="index.html" class="botao">
+            <input type="submit" value="Home" class="btn">
+        </form>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0)" id="gabbtn" onclick="equiNav()">Equipe</a>
+                        </li>
+                            <ul id="equioverlay">
+                                <img src="equipe/Milton.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                <img src="equipe/Henrique.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                <img src="equipe/Ducy.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                <img src="equipe/Pedro.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+                                <img src="equipe/Ranny.jpeg" alt="" style="height: 80px; border-radius: 30px;">
+
+                            </ul>
+                    </ul>
+                </nav>
+            </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0)" id="gabbtn" onclick="gabNav()">Gabinete</a>
+                        </li>
+                        <ul id="gaboverlay">
+                            <li>
+                                Um gabinete é onde todos os componentes estão armazenados;<a href="gabinete.html"
+                                    style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="placbtn" onclick="placNav()">Placa mãe</a></li>
+                        <ul id="placoverlay">
+                            <li>
+                                Uma placa de
+                                circuito impresso onde-se vão acoplar todos os componentes do computador;
+                                <a href="Placa.html" style="color: rgb(28, 114, 184); font-size: 20px;"> Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="hdbtn" onclick="hdNav()">HD/SSD</a></li>
+                        <ul id="hdoverlay">
+                            <li>
+                                Dispositivos que permite ao computador guardar dados permanente; <a href="HD.html"
+                                    style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="rambtn" onclick="ramNav()">Memoria RAM</a></li>
+                        <ul id="ramoverlay">
+                            <li>
+                                Dispositivos que permite ao computador guardar dados temporariamente; <a href="RAM.html"
+                                    style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+            <div id="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="procsbtn" onclick="procsNav()">Processador</a></li>
+                        <ul id="procsoverlay">
+                            <li>
+                                Pode ser considerado o "cérebro" de um computador. Tudo passa por ele já que ele é o
+                                responsável por
+                                executar todos os processos
+                                computacionais <a href="Processador.html"
+                                    style="color: rgb(28, 114, 184); font-size: 20px;">Ler mais</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <button class="nav-button" onclick="openNav()">
+        <i><img src="home/menu-56.png" alt="" style="height: 25px;"></i>
+    </button>
+
+    <div id="myNav1" class="overlay1">
+        <div class="overlay-content">
+            <div id="container1">
+                <nav class="menu1">
+                    <ul>
+                        <li><a href="javascript:void(0)" id="placs" onclick="placsNav()">Conectores de alimentação, SATA
+                                e mais</a></li>
+                        <p id="placsoverlay" style="font-size: 16px; font-family: 'Courier New', Courier, monospace; height: 400px;">
+                            Há outros conectores importantes espalhados pela placa-mãe. Ao contrário dos que foram
+                            mencionados anteriormente, estes ocupam posições menos padronizadas. <br>
+                            A exceção vai para o conector ATX de 24 pinos, da fonte de alimentação elétrica.
+                            Normalmente, ele fica localizado na borda do componente, ao lado dos slots de memória
+                            RAM. <br>
+                            A placa também pode ter um ou mais conectores auxiliares de quatro, seis ou oito pinos.
+                            Com frequência, eles fornecem alimentação elétrica complementar para processadores
+                            exigentes. <br>
+                            Também costuma haver conectores para a ventoinha (cooler) da CPU e, em placas para
+                            PCs do tipo gamer, para LEDs de iluminação. <br>
+                            Você também pode encontrar conectores SATA para permitir que SSDs ou HDs sejam
+                            instalados na máquina. É comum placas-mãe terem de dois a seis conectores do tipo. <br>
+                            Ainda para armazenamento, a motherboard pode ter um ou mais slots M.2 (2242, 2260 ou
+                            2280) para instalação de SSDs mais avançados. <br>
+                            O componente também traz pinos para o painel frontal do computador. É por meio deles
+                            que os botões de liga / desliga e reset funcionam. O mesmo vale para portas USB, slots
+                            para leitura de cartões SD e conexão para fones e microfone. <br>
+                            A ligação dos conectores do painel frontal aos pinos deve ser feita de acordo com as
+                            orientações do manual da placa-mãe.
+                        </p>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <form action="index.html" class="botao">
+        <input type="submit" value="Home" class="btn" style="margin-inline-start: 850px; margin-top: -200px;">
+    </form>
+</body>
+
+</html>
